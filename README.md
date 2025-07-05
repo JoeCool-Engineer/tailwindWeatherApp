@@ -18,7 +18,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and Application Programming Interface (API).
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
@@ -30,6 +30,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 ## Build Notes
+Using Date FNS NPM
+https://www.npmjs.com/package/date-fns
+
 Using React Icons on Githup
 https://react-icons.github.io/react-icons/search/#q=Search
 
@@ -39,4 +42,18 @@ https://react-icons.github.io/react-icons/search/#q=Search
  Using Date.fns
  versiondate-fns@2.30.0
  https://www.npmjs.com/package/date-fns
+
+ Using Jotai (React state management)
+ https://jotai.org/
+
+ ## Components
+ Container: Built the React container for the current weather
+ Forecast Weather Data: Data for the 7 Day forecast
+ Weather Icon: Returns the Icon from Open Weather Map API 
+ Search Box: Building the search box in the Navbar
+ Navbar: Built the CSS content using the React-Icon
+
+ ## Utils
+cn function: Not sure 
+getDayOrNightIcon function: Logic for Day/Night indication
  
